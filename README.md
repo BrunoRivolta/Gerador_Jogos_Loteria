@@ -2,7 +2,7 @@
 
 Este projeto foi desenvolvido por mim para gerar numeros aleatórios para jogos de loteria. Adicionando funcionalidades interessantes. A aplicação esta disponivel no seguinte endereço:
 
- > www.gerador.com.br
+ > https://rivoltalotofacil.netlify.app/
 
 Jogos que podem ser gerados a partir desta aplicação:
 
