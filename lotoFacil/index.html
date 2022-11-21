@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Gerador Loto-Facil</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1>
+					<img class= "logo" src="./img/lotofacil-logo.png" alt="Loto Facil">
+				</h1>
+			</div>
+		</header>
+		<main>
+			<section class="opcoes">
+				<h1>Gerador de jogos LotoFacil</h1>
+				<p>Com opção de eliminar ou incluir até 5 numeros.</p>
+				<table class="tabelaConf">
+					<tr>
+						<td>
+							<table class="tabela">
+								<tr>
+									<td>
+										<input type="number" class="incluidos" placeholder="">
+										<button class="botaoInclui" onclick="pegaIncluidos()"> Incluir </button>
+									</td>
+									<td>
+									</td>
+									<td class="espaco">
+										<div id="circuloIncluido"></div>
+									</td>
+								</tr>
+							</table>
+							<br>
+							<table class="tabelaResult">
+								<tr>
+									<td>
+										<input type="number" class="excluidos" placeholder="">
+										<button class="botaoExclui" onclick="pegaExcluidos()"> Excluir </button>
+									</td>
+									<td>
+									</td>
+									<td class="espaco">
+										<div id="circuloExcluido"></div>
+									</td>
+								</tr>
+							</table>
+							<br>
+							<button class="botaoReset" onclick="reset()"> Reset </button>
+						</td>
+					</tr>
+				</table>
+			</section>
+			<section class="resultado">
+				<table class="tabelaResulta">
+					<tr>
+						<td>
+							<div id="circulos"></div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<br>
+							<button class="botaoJogo" onclick="horaDoJogo()"> Fazer Jogo </button>
+						</td>
+					</tr>
+			</section>
+		</main>
+		<script src="lotoFacil.js"></script>
+	</body>
+</html>

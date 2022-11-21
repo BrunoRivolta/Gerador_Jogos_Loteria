@@ -1,0 +1,91 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.logo {
+    width: 350px;    
+}
+
+.resultado {
+    text-align: center;
+    margin: 30px;
+}
+
+.tabela {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabelaResulta {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1;
+    border-style: inset;
+    border-color: blueviolet;
+    border-radius: 10px;
+}
+
+.tabelaConf {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1;
+    border-style: inset;
+    border-color: blueviolet;
+    border-radius: 10px;
+}
+
+.incluidos,
+.excluidos {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.botaoInclui,
+.botaoExclui {
+    height: 40px;
+}
+
+
+#circulos span {
+    display:block;
+    border-radius:50%;
+    width:1.5em;
+    height:1.5em;
+    margin:4px;
+    text-align:center;
+    float:left;
+    border:2px solid rgb(153, 0, 255);
+  }
+
+#circuloIncluido span {
+    display:block;
+    border-radius:50%;
+    width:1.3em;
+    height:1.3em;
+    margin:4px;
+    text-align:center;
+    float:left;
+    border:2px solid rgb(34, 168, 0);
+  }
+
+  #circuloExcluido span {
+    display:block;
+    border-radius:50%;
+    width:1.3em;
+    height:1.3em;
+    margin:4px;
+    text-align:center;
+    float:left;
+    border:2px solid rgb(206, 45, 5);
+  }
+
+.espaco {
+    width: 200px;
+}
+
+#circulos {
+    width: 200px;
+}
